@@ -2,12 +2,12 @@
   <header class="shadow">
     <div class="shadow header-wrapper">
       <img src="./icons/Burger.svg" class="menu-icon burger" />
-      <a href="index.html" aria-label="Accueil" class="logo"
+      <RouterLink to="/"
         ><picture>
           <source srcset="./icons/SpinIn-Mobile.svg" media="(max-width:600px)" />
           <img src="./icons/SpintIt-lineson.svg" alt="Logo de SpinIt!" />
         </picture>
-      </a>
+      </RouterLink>
 
       <form>
         <input
@@ -53,7 +53,9 @@
         </div>
 
         <div class="dropdown">
-          <img src="./icons/User.svg" class="menu-icon" id="user-icon" />
+          <RouterLink to="home"
+            ><img src="./icons/User.svg" class="menu-icon" id="user-icon"
+          /></RouterLink>
           <div id="user-dropdown" class="dropdown-content">
             <a href="../src/pages/profile.html">Profil</a>
             <a href="../src/pages/collection.html">Collection</a>
