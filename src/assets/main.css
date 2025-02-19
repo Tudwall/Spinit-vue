@@ -1,0 +1,19 @@
+@import url('./reset.css');
+@import url('./base.css');
+
+body {
+  font-family: 'Montserrat', serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fira Sans', serif;
+}
+
+h4,
+h5 {
+  font-family: 'Cardo', serif;
+}
