@@ -7,6 +7,8 @@ import ListComp from '@/components/ListComp.vue'
   <HeaderComp />
 
   <main>
-    <ListComp />
+    <Suspense>
+      <ListComp />
+    </Suspense>
   </main>
 </template>
