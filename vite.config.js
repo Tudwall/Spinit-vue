@@ -14,4 +14,7 @@ export default defineConfig({
       '@co': fileURLToPath(new URL('./src/components/', import.meta.url)),
     },
   },
+  build: {
+    outDir: 'dist/client',
+  },
 })
